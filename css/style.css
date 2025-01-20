@@ -1,0 +1,214 @@
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abhaya-libre-regular {
+    font-family: "Abhaya Libre", serif;
+}
+
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.orbit-regular {
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.old-standard-tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.text-effect-1 {
+    color: #fff100;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -6px -4px 2px #2f71ff,
+        -8px -2px 0.1px black;
+}
+
+.text-effect-2 {
+    color: #fff100;
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+        -2px -2px 0px black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -16px -6px 2px #2f71ff,
+        -18px -6px 0px black;
+}
+
+.text-effect-2 {
+    color: #fff100;
+    text-shadow:
+        -2px -2px 3px black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -16px -6px 2px #2f71ff,
+        -18px -6px 0px black;
+}
+
+.text-effect-3 {
+    color: #fff100;
+    text-shadow:
+        -2px -2px 3px black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -10px 4px 2px #2f71ff,
+        -11px 4px 0px black;
+}
+
+.text-effect-4 {
+    color: #fff100;
+    -webkit-text-stroke: 3px black;
+}
+
+.text-effect-5 {
+    color: #fff100;
+    text-shadow:
+        -2px -2px 4px black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -4px 4px 1px #fafafa,
+        -6px 2px 0.1px black;
+}
+
+main {
+    background-image: url('./../images/bg/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 4520px;
+} 
+
+.bg-yellow {
+    background-color: #fff100;
+}
+.clip-bottom-right {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 70px), calc(100% - 70px) 100%, 0 100%);
+}
+
+.clip-top-right {
+    clip-path: polygon(0 0, calc(100% - 70px) 0, 100% 70px, 100% 100%, 0 100%);
+}
+
+
+.custom-border {
+    border: 4px solid rgb(0, 255, 0);
+    position: relative;
+}
+
+.corner-accent {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 255, 191);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.mute-button {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffa600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.mute-button:hover {
+    background-color: #fa7900;
+}
+
+@media (max-width: 1024px) {
+
+    .text-effect-1 {
+        color: #fff100;
+        text-shadow:
+            -2px -2px 3px black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black,
+            -6px -4px 2px #2f71ff,
+            -8px -2px 0.1px black;
+    }
+
+    .text-effect-2 {
+        color: #fff100;
+        text-shadow:
+            -2px -2px 3px black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black,
+            -10px -6px 2px #2f71ff,
+            -12px -6px 0px black;
+    }
+    .text-effect-3 {
+        color: #fff100;
+        text-shadow:
+            -2px -2px 3px black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black,
+            -6px 4px 2px #2f71ff,
+            -6px 4px 0px black;
+    }
+    
+    .text-effect-4 {
+        color: #fff100;
+        -webkit-text-stroke: 3px black;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .text-effect-1 {
+        color: #fff100;
+        text-shadow:
+            -2px -2px 3px black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black,
+            -4px -2px 2px #2f71ff,
+            -4px -2px 0.1px black;
+    }
+
+    .text-effect-2 {
+        color: #fff100;
+        text-shadow:
+            -2px -2px 0px black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black,
+            -6px -4px 2px #2f71ff,
+            -6px -4px 0px black;
+    }
+}
